@@ -61,7 +61,7 @@ resource "vsphere_virtual_machine" "vm" {
     size  = 40
   }
   disk {
-    label = "${var.vm-name}-${count.index + 1}-disk"
+    label = "${var.vm-name}-${count.index + 2}-disk"
     thin_provisioned = true
     eagerly_scrub = false
     size  = 10
