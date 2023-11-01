@@ -18,7 +18,6 @@
     "disk-thin-provision": "true",
 
     "additional-disk-size": "10240",
-    "disk-thin-provision": "true",
     
     "winadmin-password": "S3cr3t0!",
     
