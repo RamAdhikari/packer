@@ -10,7 +10,7 @@
     "vsphere-datastore": "LocalDS",
     "vsphere-folder": "Templates",
       
-    "vm-name": "Win2019-Template-Base",
+    "vm-name": "Win2022-Template-Base",
     "vm-cpu-num": "2",
     "vm-mem-size": "4096",
     
@@ -74,7 +74,7 @@
         ],
   
         "floppy_files": [
-            "autounattended_2022.xml",
+            "win2022/autounattend.xml",
             "scripts/disable-network-discovery.cmd",
             "scripts/disable-server-manager.ps1",
             "scripts/enable-rdp.cmd",
