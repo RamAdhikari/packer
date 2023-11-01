@@ -4,7 +4,7 @@
 
 vm-count = "3"
 vm-name = "RA-VM"
-vm-template-name = "Win2019-Template-Base"
+vm-template-name = "Win2022-Template-Base"
 vm-cpu = 2
 vm-ram = 4096
 vm-guest-id = "windows9Server64Guest"
