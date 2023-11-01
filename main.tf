@@ -65,6 +65,7 @@ resource "vsphere_virtual_machine" "vm" {
     thin_provisioned = true
     eagerly_scrub = false
     size  = 10
+    unit_number = 1
   }
   clone {
     template_uuid = data.vsphere_virtual_machine.template.id
