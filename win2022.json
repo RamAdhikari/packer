@@ -16,6 +16,9 @@
     
     "os-disk-size": "40960",
     "disk-thin-provision": "true",
+
+    "additional-disk-size": "10240",
+    "disk-thin-provision": "true",
     
     "winadmin-password": "S3cr3t0!",
     
@@ -54,8 +57,11 @@
         "storage": [
           {
             "disk_size": "{{user `os-disk-size`}}",
-            "disk_thin_provisioned": "{{user `disk-thin-provision`}}",
-            "disk_additional_size": 10240
+            "disk_thin_provisioned": "{{user `disk-thin-provision`}}"
+          },
+          {
+            "disk_size": "{{user `additional-disk-size`}}",
+            "disk_thin_provisioned": "{{user `disk-thin-provision`}}"
           }
         ],
         "disk_controller_type": "lsilogic-sas",
