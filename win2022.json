@@ -44,6 +44,7 @@
         "winrm_timeout": "1h30m",
   
         "convert_to_template": "true",
+        "remove_cdrom": "true",
 
         "vm_name": "{{user `vm-name`}}",
         "guest_os_type": "windows9Server64Guest",
