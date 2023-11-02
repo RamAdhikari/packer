@@ -97,7 +97,8 @@
       "type": "windows-shell",
       "inline": [
         "ipconfig /all",
-        "powershell -Command 'set-disk 1 -ErrorAction Stop -IsOffline $false'"
+        "powershell -executionpolicy bypass -Command set-disk 1 -ErrorAction Stop -IsOffline $false",
+        "powershell -executionpolicy bypass -Command get-disk"
         
       ]
     }
