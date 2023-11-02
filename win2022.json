@@ -99,7 +99,6 @@
         "ipconfig /all",
         "powershell -executionpolicy bypass -Command set-disk 1 -ErrorAction Stop -IsOffline $false",
         "powershell -executionpolicy bypass -Command set-disk 1 -ErrorAction Stop -IsOffline $false",
-        "powershell -executionpolicy bypass -Command Get-Partition -DiskNumber 1 -PartitionNumber 1 | Set-Partition -NewDriveLetter D",
         "powershell -executionpolicy bypass -Command get-disk"
         
       ]
