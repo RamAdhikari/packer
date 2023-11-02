@@ -95,7 +95,11 @@
   "provisioners": [
     {
       "type": "windows-shell",
-      "inline": ["ipconfig /all"]
+      "inline": [
+        "ipconfig /all",
+        "powershell -Command 'set-disk 1 -ErrorAction Stop -IsOffline $false'"
+        
+      ]
     }
   ]
    
