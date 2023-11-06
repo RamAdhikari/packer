@@ -99,7 +99,6 @@
         "ipconfig /all",
         "set-disk 1 -ErrorAction Stop -IsOffline $false",
         "get-partition",
-        "GSet-WmiInstance -InputObject ( Get-WmiObject -Class Win32_volume -Filter "DriveLetter = 'F:'" ) -Arguments @{DriveLetter='Z:'}",
         "get-partition -DiskNumber 1 | Set-Partition -NewDriveletter D",
         "get-partition"
       ]
