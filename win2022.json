@@ -99,7 +99,7 @@
         "ipconfig /all",
         "set-disk 1 -ErrorAction Stop -IsOffline $false",
         "get-partition",
-        "Get-Volume -DriveLetter F | Get-Partition | Remove-PartitionAccessPath -AccessPath F:\"
+        "Get-Volume -DriveLetter F | Get-Partition | Remove-PartitionAccessPath -AccessPath F:\",
         "get-partition -DiskNumber 1 | Set-Partition -NewDriveletter D",
         "get-partition"
       ]
