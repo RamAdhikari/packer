@@ -94,13 +94,13 @@
   
   "provisioners": [
     {
-      "type": "windows-shell",
+      "type": "powershell",
       "inline": [
         "ipconfig /all",
-        "powershell -executionpolicy bypass -Command set-disk 1 -ErrorAction Stop -IsOffline $false",
-        "powershell -executionpolicy bypass -Command set-disk 1 -ErrorAction Stop -IsOffline $false",
-        "powershell -executionpolicy bypass -Command get-disk"
-        
+        "set-disk 1 -ErrorAction Stop -IsOffline $false",
+        "get-partition",
+        "get-partition -DiskNumber 1 | Set-Partition -NewDriveletter D",
+        "get-partition"
       ]
     }
   ]
