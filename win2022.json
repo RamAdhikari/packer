@@ -21,7 +21,7 @@
     
     "winadmin-password": "S3cr3t0!",
     
-    "os_iso_path": "[LocalDS] SERVER_EVAL_x64FRE_en-us_2022.iso"
+    "//os_iso_path": "[LocalDS] SERVER_EVAL_x64FRE_en-us_2022.iso"
  },
 
   "builders": [
