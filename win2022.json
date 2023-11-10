@@ -20,6 +20,7 @@
     "additional-disk-size": "10240",
     
     "winadmin-password": "S3cr3t0!"
+    "os_iso_path": "[LocalDS] contentlib-bbc59a6f-2316-4235-b5d6-d9c07eff50bd/9b13c8d5-b257-471f-9e25-e490c5f4be59/SERVER_EVAL_x64FRE_en-us_2022_1c416aee-b1f7-4f52-9b9e-af113dba8ab4.iso"
  },
 
   "builders": [
@@ -72,10 +73,6 @@
         ],
 
         "shutdown_command": "shutdown -s -t 0 -f",
-        "iso_url": "\\\\mdt-wds\\packer\\ERVER_EVAL_x64FRE_en-us_2022.iso",
-        "iso_checksum": "sha256:3E4FA6D8507B554856FC9CA6079CC402DF11A8B79344871669F0251535255325",
-        "ssh_username": "Administrator",
-        "ssh_password": "K@thmand0Ra",
       
         "iso_paths": [
           "[] /vmimages/tools-isoimages/windows.iso"
