@@ -72,7 +72,7 @@
         ],
 
         "shutdown_command": "shutdown -s -t 0 -f",
-        "iso_url": "SERVER_EVAL_x64FRE_en-us_2022.iso",
+        "iso_url": "smb://mdt-wds/packer/ERVER_EVAL_x64FRE_en-us_2022.iso",
         "iso_checksum": "sha256:3E4FA6D8507B554856FC9CA6079CC402DF11A8B79344871669F0251535255325",
       
         "iso_paths": [
