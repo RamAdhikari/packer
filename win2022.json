@@ -21,7 +21,7 @@
     
     "winadmin-password": "S3cr3t0!",
     
-    “iso_url”: “E:\ISO\SERVER_EVAL_x64FRE_en-us_2022.iso”
+    “iso_url”: “./SERVER_EVAL_x64FRE_en-us_2022.iso”
  },
 
   "builders": [
