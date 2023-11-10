@@ -19,7 +19,7 @@
 
     "additional-disk-size": "10240",
     
-    "winadmin-password": "S3cr3t0!",
+    "winadmin-password": "S3cr3t0!"
  },
 
   "builders": [
