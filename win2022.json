@@ -75,6 +75,7 @@
         "shutdown_command": "shutdown -s -t 0 -f",
       
         "iso_paths": [
+          "{{user `os_iso_path`}}",
           "[] /vmimages/tools-isoimages/windows.iso"
         ],
   
