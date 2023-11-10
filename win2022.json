@@ -75,7 +75,7 @@
         "iso_url": "\\\\mdt-wds\\packer\\ERVER_EVAL_x64FRE_en-us_2022.iso",
         "iso_checksum": "sha256:3E4FA6D8507B554856FC9CA6079CC402DF11A8B79344871669F0251535255325",
         "ssh_username": "Administrator",
-        "ssh_password": "K@thmand0Ra"
+        "ssh_password": "K@thmand0Ra",
       
         "iso_paths": [
           "[] /vmimages/tools-isoimages/windows.iso"
