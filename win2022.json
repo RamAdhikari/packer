@@ -73,8 +73,6 @@
 
         "shutdown_command": "shutdown -s -t 0 -f",
         "iso_url": "./SERVER_EVAL_x64FRE_en-us_2022.iso",
-        "remote_cache_datastore": "LocalDS",
-        "remote_cache_directory": "ISOs",
       
         "iso_paths": [
           "[] /vmimages/tools-isoimages/windows.iso"
