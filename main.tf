@@ -76,6 +76,7 @@ resource "vsphere_virtual_machine" "vm" {
       windows_options{
         computer_name  = "${var.vm-name}-${count.index + 1}"
         workgroup   = "Workgroup"
+        admin_password = "P@ssw0rd1234"
       }
 
       network_interface {}
