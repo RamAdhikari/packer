@@ -98,6 +98,7 @@
         "ipconfig /all",
         "set-disk 1 -ErrorAction Stop -IsOffline $false",
         "get-partition",
+        "Get-Volume | ? DriveType -eq "cd-rom" | Set-Partition -NewDriveLetter Z",
         "get-partition -DiskNumber 1 | Set-Partition -NewDriveletter D",
         "get-partition"
       ]
