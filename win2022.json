@@ -20,7 +20,10 @@
     "additional-disk-size": "10240",
     
     "winadmin-password": "S3cr3t0!",
-    "os_iso_path": "[LocalDS] contentlib-bbc59a6f-2316-4235-b5d6-d9c07eff50bd/9b13c8d5-b257-471f-9e25-e490c5f4be59/SERVER_EVAL_x64FRE_en-us_2022_1c416aee-b1f7-4f52-9b9e-af113dba8ab4.iso"
+    "iso_urls": [
+      "http://192.168.1.201/iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"
+    ],
+    "iso_checksum": "6612b5b1f53e845aacdf96e974bb119a3d9b4dcb5b82e65804ab7e534dc7b4d5",
  },
 
   "builders": [
