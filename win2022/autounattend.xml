@@ -237,7 +237,7 @@
             </OOBE>
             <UserAccounts>
                 <AdministratorPassword>
-                    <Value>P@ssw0rd1234</Value>
+                    <Value>S3cr3t0!</Value>
                     <PlainText>true</PlainText>
                 </AdministratorPassword>
             </UserAccounts>
