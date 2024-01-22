@@ -76,6 +76,9 @@
         ],
 
         "shutdown_command": "shutdown -s -t 0 -f",
+        "iso_paths": [
+          "[] /vmimages/tools-isoimages/windows.iso"
+        ],
   
         "floppy_files": [
             "win2022/autounattend.xml",
