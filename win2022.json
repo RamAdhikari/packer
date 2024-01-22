@@ -20,10 +20,6 @@
     "additional-disk-size": "10240",
     
     "winadmin-password": "S3cr3t0!",
-    "iso_urls": [
-      "http://192.168.1.201/iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"
-    ],
-    "iso_checksum": "6612b5b1f53e845aacdf96e974bb119a3d9b4dcb5b82e65804ab7e534dc7b4d5",
  },
 
   "builders": [
@@ -34,6 +30,10 @@
         "username": "{{user `vsphere-user`}}",
         "password": "{{user `vsphere-password`}}",
         "insecure_connection": "true",
+        "iso_urls": [
+          "http://192.168.1.201/iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"
+        ],
+        "iso_checksum": "6612b5b1f53e845aacdf96e974bb119a3d9b4dcb5b82e65804ab7e534dc7b4d5",
   
         "datacenter": "{{user `vsphere-datacenter`}}",
         "cluster": "{{user `vsphere-cluster`}}",
