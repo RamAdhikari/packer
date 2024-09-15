@@ -20,7 +20,7 @@ vsphere-vcenter = "vcsa.homelab.local"
 vsphere-user = "administrator@homelab.local"
 
 # VMware vSphere password used to deploy the infrastructure
-vsphere-password = "K@thmand0Ra"
+vsphere-password = "replaceme-pass"
 
 # Skip the verification of the vCenter SSL certificate (true/false)
 vsphere-unverified-ssl = "true"
