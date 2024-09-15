@@ -79,7 +79,7 @@
           "template/win2022/autounattend.xml",
           "template/scripts/disable-network-discovery.cmd",
           "template/scripts/disable-server-manager.ps1",
-          "/template/scripts/enable-rdp.cmd",
+          "template/scripts/enable-rdp.cmd",
           "template/scripts/enable-winrm.ps1",
           "template/scripts/install-vm-tools.cmd",
           "template/scripts/set-temp.ps1"
