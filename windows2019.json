@@ -2,7 +2,7 @@
   "variables": {
     "vsphere-server": "vcsa.homelab.local",
     "vsphere-user": "administrator@homelab.local",
-    "vsphere-password": "K@thmand0Ra",
+    "vsphere-password": "replaceme-pass",
     
     "vsphere-datacenter": "Virtual_DC",
     "vsphere-cluster": "V_Cluster",
