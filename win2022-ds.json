@@ -76,7 +76,7 @@
       ],
 
       "floppy_files": [
-          "win2022\autounattend.xml",
+          "win2022/autounattend.xml",
           "scripts/disable-network-discovery.cmd",
           "scripts/disable-server-manager.ps1",
           "scripts/enable-rdp.cmd",
